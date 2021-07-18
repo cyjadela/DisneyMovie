@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+html{
+  background: url(../images/disneyW.jpg)no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#logo{
+  margin-top:300px;
+  margin-bottom: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#menu {
+  text-align: center;
+}
+
+#menu a{
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size:60px;
+  font-family: 'Jomhuria', cursive;
+}
+.title{
+  text-align: center;
+  margin-top:80px;
+  margin-left: 50px;
+  margin-right: 20px;
+  font-size:150px;
+  font-family: 'Jomhuria', cursive;
+  font-weight: normal
+}
+
+/* footer */
+.footer{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.footer a{
+  margin-left:10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+/* navbar */
+.navbar #logo {
+  margin-left:50px;
+  margin-top:50px;
+  margin-bottom: 0px;
+}
+
+/*first*/
+.first{
+  background-color: black;
+  margin-left:100px;
+  margin-right:100px;
+  border-radius: 50px;
+}
+.first h3{
+  font-size:80px;
+  font-family: 'Jomhuria', cursive;
+  text-align:center;
+  font-weight: lighter;
+  margin-bottom: 0px;
+}
+
+.first p{
+  color:white;
+  font-size:40px;
+  font-family: 'Jomhuria', cursive;
+  text-align:center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.first a{
+  color:red;
+  font-size:50px;
+  font-family: 'Jomhuria', cursive;
+  text-decoration:none;
+}
+/*second*/
+.second{
+  background-color: black;
+  margin-left:100px;
+  margin-right:100px;
+  border-radius: 50px;
+}
+.second h3{
+  font-size:80px;
+  font-family: 'Jomhuria', cursive;
+  text-align:center;
+  font-weight: lighter;
+  margin-bottom: 0px;
+}
+
+.second p{
+  color:white;
+  font-size:40px;
+  font-family: 'Jomhuria', cursive;
+  text-align:center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.second a{
+  color:red;
+  font-size:50px;
+  font-family: 'Jomhuria', cursive;
+  text-decoration:none;
+}
+*{
+  box-sizing:border-box;
+}
+
+
+
+
+
+
+/* navbar */
+.navbar{
+  height: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.navbar #logo {
+  line-height: 60px;
+  float:left;
+}
+
+.navbar #logo img {
+  vertical-align: middle;
+}
+
+.navbar #menu{
+  float: right;
+  list-style:none;
+  padding: 0;
+  margin-top:60px;
+}
+
+.navbar #menu li {
+  float: left;
+  margin-left: 20px;
+  line-height: 60px;
+}
+
+.navbar #menu li a {
+  color: white;
+  font-size: 50px;
+  text-decoration:none;
+  font-weight:lighter;
+}
